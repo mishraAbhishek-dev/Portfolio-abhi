@@ -125,9 +125,7 @@ section {
 
 .home-img img {
     width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+    height: 40rem;
     display: block;
     border-radius: 50%;
 }
@@ -146,15 +144,7 @@ section {
     }
 
     .home-img {
-        width: 60vw;
-        margin-bottom: 2rem;
-    }
-
-    .home-img img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1/1;
-        object-fit: cover;
+       display: none;   
     }
 
     .home-content {
